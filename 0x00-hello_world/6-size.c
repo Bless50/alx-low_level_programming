@@ -12,10 +12,10 @@ char b;
 float c;
 long int d;
 long long e;
-printf("size of a is %d",sizeof(a));
-printf("size of b is %c",sizeof(b));
-printf("size of c is %f",sizeof(c));
-printf("size of d is %ld",sizeof(d));
-printf("size of e is %lld",sizeof(e));
+printf("The size of a is %zu bytes\n", sizeof(a));
+printf("The size of b is %zu bytes\n", sizeof(b));
+printf("The size of c is %zu bytes\n", sizeof(c));
+printf("The size of d is %zu bytes\n", sizeof(d));
+printf("The size of e is %zu bytes\n", sizeof(e));
 return (0);
 }
