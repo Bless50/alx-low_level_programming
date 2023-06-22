@@ -12,7 +12,7 @@ int i;
 char n;
 
 for (i = 0; i <= 9; i++)
-putchar(i);
+putchar((char)i);
 for (n = 'a'; i <= 'f'; i++)
 putchar(n);
 putchar('\n');
