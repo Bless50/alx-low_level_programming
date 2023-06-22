@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point of the program
  *
- * Description: Prints the letters of the alphabet in lowercase
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
-char n;
+	char letter;
+	int i;
 
-for (i = 0; i <= 9; i++)
-putchar(i + '0');
-for (n = 'a'; i <= 'f'; ++i)
-putchar(n);
-putchar('\n');
+	for (i = 0; i < 10; i++)
+		putchar(i + '0');
 
-return (0);
+	for (letter = 'a'; letter < 'g'; ++letter)
+		putchar(letter);
+	putchar('\n');
+
+	return (0);
 }
