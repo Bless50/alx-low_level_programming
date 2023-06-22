@@ -12,7 +12,7 @@ int i;
 
 for (i = 0; i <= 9; i++)
 {
-printf(" %d%c", i, '\0');
+printf(" %d", i);
 }
 
 return (0);
