@@ -1,21 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Entry point of program
  *
- * Description: Printing numbers from 0 to 9 using while loop and putchar function
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
-i = 0;
+	int i;
 
-while (i < 10)
-{
-putchar(i + '0');
-i++;
-}
-putchar('\n');
-
-return (0);
+	i = 0;
+	while (i < 10)
+	{
+		putchar(i + '0');
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
