@@ -12,9 +12,8 @@ int i;
 
 for (i = 0; i <= 9; i++)
 {
-printf(" %d", i);
+printf(" %d%s", i, "");
 }
-printf("\n");
 
 return (0);
 }
