@@ -3,9 +3,10 @@
 #include <stdlib.h>
 
 /**
- * Description:  Printing the absolute value of an integer
- *
- * Return - Always 0.
+ * _abs - Compute the absolute value of an integer
+ *@x: The number to compute the absolute value for
+ * 
+ * Return: The absolute value of x
  */
 int _abs(int x) 
 {
