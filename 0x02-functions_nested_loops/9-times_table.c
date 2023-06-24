@@ -14,7 +14,7 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-putchar(i * j + '0');
+putchar(i * j + 48);
 if (j < 9)
 {
 putchar(',');
