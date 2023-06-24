@@ -9,17 +9,14 @@
 void times_table(void)
 {
 int i, j;
-
+char buf[3];
 for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-putchar('0' + i * j);
-if (j < 9)
-{
-putchar(',');
+snprintf(buf, 3, "%d, ", i * j);
+write(1, buf, strlen(buf));
 }
-}
-putchar('\n');
+write(1, "\n", 1);
 }
 }
