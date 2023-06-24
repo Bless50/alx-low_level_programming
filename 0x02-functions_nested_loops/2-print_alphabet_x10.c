@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * print_alphabet - Description:  Prints alphabets 10x
+ * print_alphabet_x10 - Description:  Prints alphabets 10x
  *
  * Return - Always 0.
  */
 void print_alphabet_x10(void)
 {
+	char c;
 	int i;
-	char j;
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 'a'; j <= 'z'; j++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(j);
+			_putchar(c);
 		}
 		_putchar('\n');
 	}
