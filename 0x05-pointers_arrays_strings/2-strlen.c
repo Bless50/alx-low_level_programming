@@ -3,8 +3,10 @@
 #include <string.h>
 /**
  *_strlen - Return the length of a string.
- *@para s: The string to get the length of.
- *@return: The length of the string.
+ *
+ *@param s the string to get the length of.
+ *
+ *@return the length of the string.
  */
 int _strlen(char *s)
 {
