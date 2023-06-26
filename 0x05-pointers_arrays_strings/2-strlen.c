@@ -5,9 +5,10 @@
 /**
  *_strlen - Return the length of a string.
  *
- *@parameter s the string to get the length of.
- *
- *@return the length of the string.
+ * @param s The string to get the length of.
+ *	* A pointer to the string.
+ * @return the length of the string.
+ *	 * The length of the string, in characters.
  */
 
 int _strlen(char *s)
