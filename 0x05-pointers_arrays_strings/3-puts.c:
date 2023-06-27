@@ -1,0 +1,6 @@
+le (str[i] != '\0')
+      |           ^
+3-puts.c:14:18: error: array subscript has type ‘char’ [-Werror=char-subscripts]
+   14 | printf(" %c", str[i]);
+      |                  ^
+3-puts.c:16:1: error: expected declaration or statement a.
